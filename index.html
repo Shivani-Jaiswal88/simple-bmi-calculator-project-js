@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Body Mass Index calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>BMI Calculator</h2>
+            <div class="item">
+                <label for="Height" >Height(cm)</label>
+                <input type="number" name="nums1" id="height" placeholder="e.g. 170">
+                <label for="Weight">Weight(kg)</label>
+                <input type="number" name="nums2" id="weight" placeholder="e.g. 65">
+                <button id="bmibtn">Calculator</button>
+                <div class="box">
+                    <label for="bmi">YOUR BMI</label>
+                    <h3 id="bmivalue">--</h3>
+                    <p>Enter values above</p>
+                </div>
+              
+            </div>
+              <div class="range-value">
+                    <div class="range underweight">
+                        Underweight<br /><span>&lt; 18.5</span>
+                    </div>
+                    <div class="range normal">
+                        Normal<br /><span>18.5-24.9</span>
+                    </div>
+                    <div class="range overweight">
+                        Overweight<br /><span>25+</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

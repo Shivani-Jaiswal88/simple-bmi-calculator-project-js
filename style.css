@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #2d2d2d;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    text-align: center;
+}
+
+.card h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #b0b0b0;
+    margin-bottom: 5px;
+
+}
+
+.item input {
+    width: 100%;
+    border: 2px solid #2d2d2d;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #121212;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.item input:hover {
+    border-color: #3b82f6;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    color: #ffffff;
+    background-color: #2563eb;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+button:hover{
+    background: #1355e1;
+}
+.box{
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #383838;
+}
+.box label{
+    font-size: 16px;
+    color: #9e9e9e;
+    letter-spacing: 0.05rem;
+}
+h3{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+p{
+    font-weight: bold;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.range-value{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 6px;
+}
+.range{
+    flex: 1;
+    padding: 8px 4px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+.range span{
+    font-size: 10px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+.underweight{
+    background-color:  #0284c7;;
+}
+.normal{
+    background-color:#16a34a;
+}
+.overweight{
+    background-color: #dc2626;
+}
